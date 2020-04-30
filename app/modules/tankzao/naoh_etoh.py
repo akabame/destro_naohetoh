@@ -20,7 +20,7 @@ class tankzao(Resource):
     def get(self):
         return naetoh_tank, 200
     
-    def post_EtOH(self):
+    def post(self):
         json_data = request.get_json(force=True)
         origem = json_data.get('origem', None)
         etoh = json_data.get('etoh', None)
