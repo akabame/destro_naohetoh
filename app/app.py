@@ -2,7 +2,7 @@ from threading import Thread
 from flask import Flask, request
 from flask_restful import Api
 
-from app.modules.tankzao.tankzao import tankzao
+from app.modules.tankzao.naoh_etoh import tankzao
 
 app = Flask(__name__)
 api = Api(app)
