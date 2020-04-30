@@ -34,6 +34,7 @@ class tankzao(Resource):
         if origem == "etoh":
             if etoh is not None:
                 naetoh_tank['volume_etoh'] += etoh
+                return json = {"status_code": 200}
             else:
                 json = {
                 "status_code": 400,
